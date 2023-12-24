@@ -7,7 +7,7 @@
 	const isProd = process.env.NODE_ENV === 'production';
 </script>
 
-{#if !isProd}
+{#if isProd}
 	<section class="info-wrapper">
 		<div class="info-container">
 			<img src={MaintainceImg} alt="Men working on a site" />
