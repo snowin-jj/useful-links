@@ -12,7 +12,7 @@
 		<div class="info-container">
 			<img src={MaintainceImg} alt="Men working on a site" />
 			<h2>Working in progress</h2>
-			<p>Please back come later :)</p>
+			<p>Please come back later :)</p>
 		</div>
 	</section>
 {:else}
