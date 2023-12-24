@@ -7,6 +7,10 @@
 	const isProd = process.env.NODE_ENV === 'production';
 </script>
 
+<svelte:head>
+	<title>👷‍♂️ Working in progress | Usefull Links</title>
+</svelte:head>
+
 {#if isProd}
 	<section class="info-wrapper">
 		<div class="info-container">
